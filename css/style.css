@@ -1,0 +1,277 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+/*Inicio de estilos de  navegacion */
+/*Estilo para la barra de navegacion*/
+nav{
+	position: relative;
+	background-color: black;
+	width: 100%;
+	height: 74px;
+	padding: 8px 0;
+}
+nav ul{
+  position: absolute;
+  top: 21%;
+  left: 2%;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	margin-right: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+	color:#FE7676;
+}
+nav ul li{
+	display: inline;
+  color: white;
+	list-style: none;
+
+}
+span.shop{
+	color: #FE7676;
+	font-weight: 700;
+}
+span.shop:hover{
+	text-decoration: underline;
+	color: white;
+}
+div.cont-buscador{
+  position: absolute;
+  top: 32%;
+  right: 0%;
+}
+/*Estilo para la barra de busqueda*/
+.buscador{
+	position: relative;
+	border-radius: 7px;
+	width: 221px;
+	padding: 4px 15px 8px 15px;
+	margin-right: 35px;
+	border: none;
+	position: relative;
+}
+button{
+	position: absolute;
+	border-radius: 0 32% 32% 0;
+	width: 25px;
+	height: 28px;
+	right: 14%;
+	border: none;
+	background: transparent;
+	transition: width 0s, height 0s;
+}
+button:hover{
+	width: 28px;
+    height: 28px;
+}
+
+.lupa{
+	padding-top: 2px;
+	width: 15px;
+	height: 15px;
+	transition: width 0s, height 0s;
+}
+.lupa:hover{
+	width: 18px;
+    height: 18px;
+}
+/*Fin de estilos de navegacion */
+
+/*Inicio de estilos del banner */
+div.img-banner{
+	position: relative;
+}
+img.imagbanner{
+	margin-top: 0;
+	width: 100%;
+
+}
+/*Estilos del texto del banner*/
+span.textobanner{
+	display: block;
+	padding-left: 25px;
+	margin-bottom: 4px;
+  	background-color: white;
+  	height: 62px;
+  	box-sizing: border-box;
+}
+.lineauno{
+	width: 553px;
+}
+.lineados{
+	width: 571px;
+}
+.lineatres{
+	width: 354px;
+}
+/*Estilo para la imagen del banner*/
+div.txt-img-banner{
+	position: absolute;
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	top: 19%;
+}
+/*Estilos para los textos debajo del banner*/
+div.mensajes{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	display: block;
+}
+div.mensajes p{
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	margin: 0 0;
+}
+div.recien-llegados{
+	position: relative;
+}
+div.lo-ultimo{
+	position: absolute;
+	top: 98%;
+	left: 36%;
+}
+span.legend{
+	color: #FE7676;
+	letter-spacing: 8px;
+}
+span.slogan{
+	color: #4A4A4A;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 6px;
+}
+/*Fin de estilos del banner */
+
+/*Inicio de los estilos de la seccion de productos */
+.productos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+}
+hr{
+	margin: 0 0;
+	border: 1px solid;
+}
+/*Estilo para los productos(individuales)*/
+div.producto{
+	font-family: 'Montserrat', sans-serif;
+	height: 600px;
+	width: 301px;
+	margin: 30px 60px 110px 10px;
+	padding-bottom: 30px;
+}
+/*Estilo para la imagen del producto*/
+div.img-prod img{
+	width: 300px;
+	height: 450px;
+}
+/*Estilo para el contenedor de la descripcion*/
+div.conte{
+	position: relative;
+	display: block;
+	width: 302px;
+	height: 65px;
+	top: 0%;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+div.cont-desc-pre{
+	height: 50px;
+	margin: 10px 0;
+}
+/*Estilo para el texto descriptivo del producto*/
+div.cont-txt{
+	width: 200px;
+}
+div.cont-txt p{
+	margin: 0 0;
+	font-size: 16px;
+}
+span.desc-prod{
+	font-weight: 700;
+	font-size: 18px;
+}
+span.tiendaorien{
+	font-weight: 500;
+}
+/*Estilo para el circulo de talla*/
+div.des-talla{
+	position: absolute;
+	width: 0px;
+	left: 250px;
+	top: 1px;
+	right: 0;
+}
+div.des-talla p{
+	position: relative;
+	margin: 0;
+	width: 47px;
+	height: 47px;
+	border-radius: 100%;
+	background-color: black;
+}
+p span.xs{
+	position: absolute;
+	top: 15px;
+	left: 11px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+/*Estilo para la descripcion de tienda y precio*/
+div.des-precio{
+	position: absolute;
+	width: 122px;
+	left: 195px;
+	top: 1px;
+	right: 0;
+}
+div.des-precio p{
+	position: relative;
+	margin: 0;
+}
+/*Estilo para el precio*/
+p span.precio{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-size: 33px;
+	font-weight: 100;
+	top: -2px;
+	left: -8px;
+	right: 0px;
+	color: black;
+}
+/*Estilop para la imagen de perfil*/
+div.img-prof-padre{
+	position: relative;
+	height: 70px;
+	width: 301px;
+}
+div.img-profile{
+	position: absolute;
+	background-image:url(../img/profile.png);
+ 	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.crop-img{
+	height: 55px;
+	width: 55px;
+	top: 20%;
+	left: 40%;
+	border-radius: 100%;
+	background-position: -36px -21px;
+	background-size: 126px 117px;
+}
+/*Fin de los estilos de la seccion de productos */
